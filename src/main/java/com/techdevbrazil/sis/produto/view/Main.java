@@ -37,6 +37,7 @@ public class Main extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Sistema de Cadastro de Produtos");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -116,7 +117,8 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1MouseClicked
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        
+        CategoriasFrame categoriasFrame = new CategoriasFrame();
+        categoriasFrame.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
